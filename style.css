@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+
+.login-form {
+	margin: 50px auto;
+	max-width: 392px;
+}
+
+	.login-form > div {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.login-form > section {
+		font-size: 13px;
+		text-align: center;
+		margin-top: 26px;
+		color: #7f7f7f;
+	}
+		.login-form > section a {
+			color: #08549b;
+		}
+
+.login-form .panel {
+	background: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #d8dce0;
+	-webkit-box-shadow: 0 0 5px 0 rgba( 150, 150, 150, .5 );
+	   -moz-box-shadow: 0 0 5px 0 rgba( 150, 150, 150, .5 );
+	        box-shadow: 0 0 5px 0 rgba( 150, 150, 150, .5 );
+}
+	.login-form .panel .panel-heading {
+		padding: 25px 40px 20px 40px;
+		background: #fff;	
+	}
+		.login-form .panel .panel-heading button {
+			background: #31487b;
+			border: none;
+		}
+		.login-form .panel .panel-heading button:hover {
+			background: #3b5896;
+		}
+		.login-form .panel .panel-heading b {
+			font-size: 18px;
+			font-weight: bold;
+			display: inline-block;
+			margin-right: 8px;
+			text-shadow: 0 0 1px #fff;
+		}
+	.login-form .panel .panel-body {
+		padding: 20px 40px;	
+		color: #555;
+	}
+	.login-form .panel .panel-footer {
+		padding: 15px 40px 20px 40px;
+		background: #fff;
+	}
+	
+form[role=login] {
+	font: 14px/2.2em Lato, serif;
+	color: #8c8c8c;
+}	
+	form[role=login] input,
+	form[role=login] button {
+		font-size: 15px;
+		margin: 5px 0;
+	}
+	form[role=login] input {
+		color: ;
+		background: ;
+		border: 1px solid #c3c5c8;
+	    border-radius: 0;
+	    -moz-border-radius: 0;
+	    -webkit-border-radius: 0;
+		box-shadow: none;
+	}
+	form[role=login] input.form-control {
+		height: 2.8em;
+		margin: 8px 0;
+	    border-radius: 2px;
+	    -moz-border-radius: 2px;
+	    -webkit-border-radius: 2px;
+		-webkit-box-shadow: inset 0 1px 2px 0 rgba( 150, 150, 150, .5 );
+		   -moz-box-shadow: inset 0 1px 2px 0 rgba( 150, 150, 150, .5 );
+		        box-shadow: inset 0 1px 2px 0 rgba( 150, 150, 150, .5 );
+	}
+		form[role=login] input::-webkit-input-placeholder {
+			color: #9e9f8a;
+		}
+		form[role=login] input:-moz-placeholder {
+			color: #9e9f8a;
+		}
+		form[role=login] input::-moz-placeholder {
+			color: #9e9f8a;
+		}
+		form[role=login] input:-ms-input-placeholder {  
+			color: #9e9f8a;
+		}
+	form[role=login] button {
+		line-height: 1.8em;
+	}

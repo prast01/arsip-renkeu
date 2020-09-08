@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Menu {
+    background-color: #333333;
+    border-left: 1px groove #333333;
+    border-right: 1px groove #336699;
+    color: #ffffff;
+    font-family: Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: middle;
+    white-space: normal;
+}
+.Menu_list {
+    background-color: #333333;
+    border-left: 1px groove #333333;
+    border-right: 1px groove #336699;
+    color: #ffffff;
+    font-family: Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    padding-bottom: 0;
+    text-align: left;
+    vertical-align: middle;
+    white-space: normal;
+}
+.Menu_titleFont {
+    color: #ff0000;
+    font-family: Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Menu_titleFont:active {
+    color: #ff8800;
+    text-decoration: none;
+}
+.Menu_titleFont:link {
+    color: #ff8800;
+    text-decoration: none;
+}
+.Menu_titleFont:visited {
+    color: #ff8800;
+    text-decoration: none;
+}
+.Menu_titleFont:hover {
+    color: #cc0000;
+    text-decoration: none;
+}
+.Table_Search {
+    background-color: #ffffff;
+    color: #000000;
+    font: bolder 14px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-spacing: normal;
+}
+.Table_Header {
+    background-color: #ff9933;
+    color: #000000;
+    font: bolder 12px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    letter-spacing: normal;
+    padding-left: 14px;
+    padding-right: 10px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-spacing: normal;
+}
+.Table_List {
+    background-color: #ffffff;
+    color: #000000;
+    font: bolder 10px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    letter-spacing: normal;
+    padding-left: 14px;
+    padding-right: 10px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-spacing: normal;
+}
+.Table_List_diff {
+    background-color: #ffcc99;
+    color: #000000;
+    font: bolder 10px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    letter-spacing: normal;
+    padding-left: 14px;
+    padding-right: 10px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-spacing: normal;
+}
+TD {
+    font-family: Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    font-size: 14px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+BODY {
+    font-family: Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    font-size: 14px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+.HeaderText {
+    font: bolder 18px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    letter-spacing: normal;
+    padding-bottom: 0;
+    text-align: justify;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: pre;
+    word-spacing: normal;
+}
+.TipText {
+    color: #3d111d;
+    font: bolder 14px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+}
+.Timetable_header {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-style: solid;
+    border-width: 0 0 2px;
+    color: #ffffff;
+    font: 14px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    letter-spacing: normal;
+    text-align: justify;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: pre;
+    word-spacing: normal;
+}
+.Timetable {
+    background-color: #ffffff;
+    color: #000000;
+    font: bold 14px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    letter-spacing: normal;
+    text-align: justify;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: pre;
+    word-spacing: normal;
+}
+.Timetable_diff {
+    background-color: #ffcc99;
+    color: #000000;
+    font: bold 14px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    letter-spacing: normal;
+    text-align: justify;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: pre;
+    word-spacing: normal;
+}
+.TimeEnable {
+    color: #000000;
+    font-family: Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.TimeDisable {
+    color: #999999;
+    font-family: Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.StatusON {
+    color: #006600;
+    font: 18px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+}
+.StatusOFF {
+    color: #cc0000;
+    font: 18px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+}
+.TableText1 {
+    color: #000000;
+    font: 600 14px Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    text-align: left;
+}
+.nrow {
+    background-color: #ffcc99;
+    color: #000000;
+    padding-left: 0;
+    padding-right: 0;
+    vertical-align: middle;
+}
+.rowHeader {
+    color: #660000;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.inputbox {
+    background-color: white;
+    border-color: orange;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    height: 22px;
+    padding-left: 2px;
+}
+.inputboxex {
+    background-color: white;
+    border-color: orange;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    height: 20px;
+    padding-left: 2px;
+}
+.hint {
+    color: blue;
+    font-size: x-small;
+}
+.error {
+    color: red;
+}
+.status {
+    background-color: #ffcc66;
+    border-color: #cccccc;
+    border-style: groove;
+    border-width: medium;
+    color: #333333;
+    font-family: Ã‹ÃŽÃŒÃ¥,MS SONG,SimSun,tahoma,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: normal;
+}
+#timetb TD {
+    padding-left: 5px;
+    vertical-align: top;
+}
+#timetb {
+    margin-left: 50px;
+    margin-top: 50px;
+    vertical-align: top;
+}
+#hint {
+    color: blue;
+    font-size: small;
+}
+.box {
+    background-color: white;
+    border-color: orange;
+    border-style: solid;
+    padding-left: 2px;
+}
+#title {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+UL {
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-top: 2px;
+    padding-left: 20px;
+}
